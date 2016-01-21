@@ -58,6 +58,10 @@ header {
   header a {
     color: #444444;
     padding: 0 0.2em; }
+  header .logo {
+    font-weight: 800;
+    position: absolute;
+    left: 1em; }
 
 .headerActive {
   background-color: #252525; }

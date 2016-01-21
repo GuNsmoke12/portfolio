@@ -93,6 +93,12 @@ header {
         color: $fontColor;
         padding: 0 0.2em;
     }
+    
+    .logo {
+        font-weight: 800;
+        position: absolute;
+        left: 1em;
+    }
 }
 
 .headerActive {
