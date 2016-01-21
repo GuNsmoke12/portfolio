@@ -86,6 +86,13 @@ header {
     .title h1 span {
       font-weight: 100; }
 
+.about {
+  padding-top: 8em; }
+  .about span {
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 0.5em; }
+
 .skills {
   background-color: #252525;
   color: #e6e6e6;

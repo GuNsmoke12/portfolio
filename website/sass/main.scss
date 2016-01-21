@@ -136,6 +136,16 @@ header {
     }
 }
 
+.about {
+    padding-top: 8em;
+    
+    span {
+        font-weight: 500;
+        display: inline-block;
+        margin-bottom: 0.5em;
+    }
+}
+
 .skills {
     background-color: rgb(37,37,37);
     color: rgb(230,230,230);
