@@ -15,4 +15,12 @@ $(document).ready( function () {
         }, 1000);
         return false;
     });
+    
+    $('.carouselWrapper').slick({
+        accessibility: true,
+        arrows: true,
+        dots: true,
+        draggable: true,
+        infinite: true
+    });
 });

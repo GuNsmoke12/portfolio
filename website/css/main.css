@@ -24,7 +24,8 @@ h3 {
 a {
   color: #b4142f;
   text-decoration: none;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+  font-weight: 500; }
   a:hover {
     cursor: pointer;
     color: #b4142f;
@@ -100,11 +101,36 @@ header {
     background-color: white;
     margin-top: 1em; }
   .worksWrapper .imageContainer {
-    background-image: url("../images/placeholder.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 14em; }
+  .worksWrapper #data-quality {
+    background-image: url("../images/cba_data_qual_parallax.jpg"); }
+  .worksWrapper #dibp {
+    background-image: url("../images/dibp_page.jpg"); }
+  .worksWrapper #graincorp {
+    background-image: url("../images/graincorp_intro.jpg"); }
+  .worksWrapper #fraud {
+    background-image: url("../images/cba_fraud_menu_chinese.jpg"); }
+  .worksWrapper #security {
+    background-image: url("../images/cba_security_transition.jpg"); }
+  .worksWrapper #knowho {
+    background-image: url("../images/knowho_intro.jpg"); }
+  .worksWrapper .read-more {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(37, 37, 37, 0.9);
+    line-height: 8.75em;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 800;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.4s; }
+    .worksWrapper .read-more:hover {
+      opacity: 1; }
   .worksWrapper .description {
     padding: 1.5em 1.5em; }
 
@@ -116,6 +142,20 @@ footer {
     padding: 0; }
   footer li {
     display: inline-block; }
+
+/*----------- showcase page ---------------*/
+.showcase {
+  padding-top: 8em; }
+  .showcase img {
+    width: 100%;
+    height: auto;
+    cursor: pointer; }
+
+.slick-prev:before, .slick-next:before {
+  color: black; }
+
+.write-up {
+  background-color: #e6e6e6; }
 
 /* --------------- Media queries -------------- */
 .span_1_of_6 {

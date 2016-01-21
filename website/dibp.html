@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- HTML5 Boilerplate -->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <!---------------------------------------------------------------------
+            Responsive Grid setup. From http://www.responsivegridsystem.com
+        ----------------------------------------------------------------------->
+        <!-- Always force latest IE rendering engine & Chrome Frame -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="cleartype" content="on">
+
+        <!-- Responsive and mobile friendly stuff -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/html5reset.css" media="all">
+        <link rel="stylesheet" href="css/col.css" media="all">
+        <link rel="stylesheet" href="css/2cols.css" media="all">
+        <link rel="stylesheet" href="css/3cols.css" media="all">
+        <link rel="stylesheet" href="css/4cols.css" media="all">
+        <link rel="stylesheet" href="css/5cols.css" media="all">
+        <link rel="stylesheet" href="css/6cols.css" media="all">
+        <!--------------------------------------------------------------
+            End of responsive grid setup
+        --------------------------------------------------------------->    
+
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300,100,900italic,700italic,400italic,300italic,100italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <link rel="stylesheet" href="css/main.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script src="js/jscript.js"></script>
+        
+        <title></title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#works">Works</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="about">
+            <article>
+                <section class="showcase">
+                    <div class="carouselWrapper">
+                        <div><img src="images/dibp_menu.jpg"></div>
+                        <div><img src="images/dibp_option.jpg"></div>
+                        <div><img src="images/dibp_page.jpg"></div>
+                        <div><img src="images/dibp_question.jpg"></div>
+                    </div>
+                </section>
+                <section class="write-up">
+                    <h2>DIBP Financial Delegations <i>e-learning website</i></h2>
+                    <p>Financial Delegations was a project built for the Department of Immigration and Border Protection. As a government site, not only did it have to work on a wide range of browsers but it also need to comply to WCAG up to AA standards.</p>
+                    <p>This was one of the first projects I worked on which did not require the use of a WYSIWYG for development (nor did any of the WYSIWYGs meet WCAG). Instead it was developed entirely by code. I started with a template which had already been created by the development team, but it also needed features which the template did not already have. The major updates I developed for the template and this project were:
+                        <ul>
+                            <li>updating all HTML and features to comply with WCAG AA standards</li>
+                            <li>developing the site to work with IE browsers all the way down to IE6</li>
+                            <li>developing “streaming” aka. multiple paths to completion</li>
+                            <li>developing assessments into the template</li>
+                            <li>upgrading the navigation code to allow for the new streaming features</li>
+                        </ul>
+                    </p>
+                    <p>The assessments code was the most interesting to write, and you can see my setup <a href="#">>> README here.</a> The README explains how to setup the assessments within the templates existing COURSEPROPS object. The COURSEPROPS object was basically used like a settings page, where certain global properties were set. You can see a snippet of my <a href="#">>> assessments code here.</a> It was developed into the existing template code.</p>
+                    <p>Built for IE6+, Chrome, Firerox, Safari, Tablet browsers.</p>
+                </section>
+            </article>
+        </main>
+        <footer id="contact">
+            <h2>Get In Touch</h2>
+            <ul class="section group">
+                <li class="col span_1_of_4"><i class="fa fa-user"></i> Nicholas Prohoroff</li>
+                <li class="col span_1_of_4"><i class="fa fa-envelope"></i> nickprok@hotmail.com</li>
+                <li class="col span_1_of_4"><i class="fa fa-phone"></i> +44 7426 961 265</li>
+                <li class="col span_1_of_4"><a href="files/nicholasprohoroff_resume.pdf" target="_blank"><i class="fa fa-file-text"></i> Download Resume</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

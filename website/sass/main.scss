@@ -46,6 +46,7 @@ a {
     color: $linkColor;
     text-decoration: none;
     transition: all 0.3s;
+    font-weight: 500;
     
     &:hover {
         cursor: pointer;
@@ -157,11 +158,52 @@ header {
     }
     
     .imageContainer {
-        background-image: url('../images/placeholder.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
         height: 14em;
+    }
+    
+    #data-quality {
+        background-image: url('../images/cba_data_qual_parallax.jpg');
+    }
+    
+    #dibp {
+        background-image: url('../images/dibp_page.jpg');
+    }
+    
+    #graincorp {
+        background-image: url('../images/graincorp_intro.jpg');
+    }
+    
+    #fraud {
+        background-image: url('../images/cba_fraud_menu_chinese.jpg');
+    }
+    
+    #security {
+        background-image: url('../images/cba_security_transition.jpg');
+    }
+    
+    #knowho {
+        background-image: url('../images/knowho_intro.jpg');
+    }
+    
+    .read-more {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(37,37,37,0.9);
+        line-height: 8.75em;
+        text-align: center;
+        font-size: 1.6em;
+        font-weight: 800;
+        color: white;
+        opacity: 0;
+        transition: opacity 0.4s;
+        
+        &:hover {
+            opacity: 1;
+        }
     }
     
     .description {
@@ -183,6 +225,28 @@ footer {
     li {
         display: inline-block;
     }
+}
+
+
+
+/*----------- showcase page ---------------*/
+
+.showcase {
+    padding-top: 8em;
+    
+    img {
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+}
+
+.slick-prev:before, .slick-next:before {
+    color: black;
+}
+
+.write-up {
+    background-color: rgb(230,230,230);
 }
 
 
